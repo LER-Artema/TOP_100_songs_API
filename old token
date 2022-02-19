@@ -1,0 +1,3 @@
+{"access_token": "BQDPN_Artmx7AVZJWoBswXAHpT6tgAdZ8sJ-8h1scFlWCydWCICX5nUKHcooM9d9UxbGxManbAsmC_-seYg",
+ "token_type": "Bearer", "expires_in": 3600, "expires_at": 1642123865}
+{'display_name': 'Artema', 'external_urls': {'spotify': 'https://open.spotify.com/user/davidrivas2002'}, 'followers': {'href': None, 'total': 1}, 'href': 'https://api.spotify.com/v1/users/davidrivas2002', 'id': 'davidrivas2002', 'images': [{'height': None, 'url': 'https://i.scdn.co/image/ab6775700000ee8596b5c986da5603db70738ec5', 'width': None}], 'type': 'user', 'uri': 'spotify:user:davidrivas2002'}
