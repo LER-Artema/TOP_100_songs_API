@@ -2,9 +2,10 @@ import requests
 import spotipy
 from bs4 import BeautifulSoup
 from spotipy.oauth2 import SpotifyClientCredentials
+import os
 
-SPOTIPY_CLIENT_ID = "6b04c91a3305467f86d4315d52326608"
-SPOTIPY_CLIENT_SECRET = "545d7517a8c6464385fb239d508ef65e"
+SPOTIPY_CLIENT_ID = os.environ.get('SPOTIPY_CLIENT_ID')
+SPOTIPY_CLIENT_SECRET = os.environ.get('SPOTIPY_CLIENT_SECRET')
 
 user = spotipy.Spotify(
     client_credentials_manager=SpotifyClientCredentials(SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET))
